@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+<Layout title="External consumer tests">
+<p class="eyebrow">Independent consumers / published packages</p>
+<h1>Prove the package boundary.</h1>
+<p class="lead">Install the same immutable packages an adopting organization uses, then test real framework builds and native hosts.</p>
+<a class="button" href="/testing/">Explore test coverage</a>
+<a href="https://github.com/ores-wasm-loaders-test/owls-e2e">Read the source and documentation ↗</a>
+<div class="flow" aria-label="Loading stages"><span>01 / Validate release</span><span>02 / Prepare public assets</span><span>03 / Verify bytes</span><span>04 / Activate explicitly</span></div>
+<div class="grid"><article class="panel"><h3>One release contract</h3><p>Exact URLs, sizes, hashes and preparation intent. JSON Schema plus host policy keep boundaries consistent.</p></article><article class="panel"><h3>Native extension points</h3><p>TypeScript adapters, Dart interfaces and Rust traits let each product own policy, transport, storage and startup.</p></article><article class="panel"><h3>Measured boundaries</h3><p>Real Flutter Wasm, generated wasm-bindgen glue, native execution, navigation and common negative cases.</p></article></div>
+</Layout>
